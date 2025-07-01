@@ -68,25 +68,19 @@ Design and implement an ATM (Automated Teller Machine) system that allows users 
 
 ---
 ## Design Patterns Used:
-###State Pattern
+**State Pattern**
 Files: ATMState, IdleState, HasCardState, AuthenticatedState
 
 Used to model ATM behavior based on current state (idle, card inserted, authenticated).
-
 Each state class handles operations differently.
-
 Makes ATM behavior clean and extensible.
 
-###Chain of Responsibility (CoR) Pattern
+**Chain of Responsibility (CoR) Pattern**
 Files: DispenseChain, NoteDispenser, NoteDispenser100, NoteDispenser50, NoteDispenser20
 
 Used to handle cash dispensing in a flexible chain.
-
 Each dispenser handles part of the amount and passes the rest down.
-
 Easy to extend (e.g., add ₹10 notes).
-
-
 ---
 
 ## Example Usage
