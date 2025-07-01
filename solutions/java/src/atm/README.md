@@ -81,6 +81,7 @@ Files: DispenseChain, NoteDispenser, NoteDispenser100, NoteDispenser50, NoteDisp
 Used to handle cash dispensing in a flexible chain.
 Each dispenser handles part of the amount and passes the rest down.
 Easy to extend (e.g., add ₹10 notes).
+
 ---
 
 ## Example Usage
